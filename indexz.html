@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bakerz.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>     
+<script src="https://kit.fontawesome.com/37d1358311.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="bootstrapcss/bootstrap.css">   
+
+
+<title>Bakerz Bite</title>
+<link rel="icon" href="img/cookies (2).png" type="image/png">
+
+</head>
+<body>
+<header class="header" id="Home">
+    <span class="logo" href="#">BakerzBite<img src="img/cookies (2).png" width="43.5px" height="43px"></span>
+
+    <!--hit counter visitor's count implementation-->
+    <script type="text/javascript" src="https://freehitcounters.org/count/bh0b"></script><br>
+    <a href='https://www.versicherungen.at/unfallversicherung-rechner/'>Unfall-Versicherung</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=e672a48655c84474a00ef174ca12c0f609534b7c'></script>
+    <!--visitor's count end-->
+
+
+    <ul class="navbar">
+      <li><a class="a" href="#">Home</a></li>
+      <li><a class="a" href="#Products">Products</a></li>
+      <li><a class="a" href="#About Us">About Us</a></li>
+      <li><a class="a" href="#Gallery">Gallery</a></li>
+      <li><a class="a" href="#FAQ">FAQ</a></li>
+      <li><a class="a" href="#Contacts">Contacts</a></li>
+
+      <li class="icons">
+          <a href="#form"><img class = "nav_icons" src="icons_prop/user-regular.svg" alt="" width="14px"></a>
+          <img class = "nav_icons" src="icons_prop/cart-shopping-solid.svg" alt="" width="14px">
+      </li>
+    </ul>
+ 
+    
+    <div class="hamburger" id="#menu-bar">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+</header>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/tabitha-turner-Ns2aJ5OXKds-unsplash.jpg" alt="Los Angeles" class="d-block" style="width:100%; height:100vh;object-fit: cover;object-position: center;filter: brightness(55%);">
+      <div class="carousel-caption" style="margin-bottom: 15%;font-family: 'Poppins', sans-serif;">
+      <div class="main1">
+        <h1><b>B<span>AK</span>ER<span>Z</span> BI<span>T</span>E</b></h1>
+        <div style="display: flex;justify-content: center;align-items: center;color: white;">
+          <h5>...Where smiles are served daily!!</h5>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/hd-wallpaper-6569895.jpg" alt="Chicago" class="d-block" style="width:100%; height:100vh;object-fit: cover;filter: brightness(55%);">
+      <div class="carousel-caption" style="margin-bottom: 15%; color: white;font-family: 'Poppins', sans-serif;">
+        <h3>Come bask in the goodness of our delicious Biscuits and Pastries</h3>
+        <p>everyone is welcome!</p>
+      </div> 
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/croissants-5966836.jpg" alt="New York" class="d-block" style="width:100%; height:100vh;object-fit: cover;">
+      <div class="carousel-caption" style="margin-bottom: 15%; color: white;font-family: 'Poppins', sans-serif;">
+        <h3>.........</h3>
+        <h3>Learn to cook your own rolls!</h3>
+        <p>sign up with us now</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<br>
+
+  <div class="welcome-text">
+    <h1>WELCOME TO BAKERZ BITE</h1><h1>__________</h1>
+    <div class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corrupti aliquam debitis obcaecati odit provident id doloribus accusamus, praesentium esse quaerat tenetur fuga commodi ipsa libero! At laborum iure sapiente?</div>
+  </div> 
+<br>
+
+<!-- About Us -->
+<section class="ABOUT"  id="About Us">
+  <div class="about-section">
+    <div class="inner-container">
+        <h1>About Us</h1>
+        <p class="text">
+          Since Its Launch, “Bakerz Bite” Has Developed Into A Reputable Bakery & Café, Specializing In Baked Goods, Passionately Made From The Finest Ingredients. Bakerz Bite Offers A Wide Range Of Baked, Foods Made Fresh In-Store Every Day. The Bakery Chain Offers More Than 300 Different Kinds Of Baked Goods, Including Artisan Pastries, Gourmet Cakes And Desserts, And Handcrafted Beverages. The Brand Takes Pride In Sourcing And Using Carefully Selected Ingredients And Promises To Bring Freshness And Quality To Its Customers. Bakerz Bite Continues To Expand And Embrace Innovation In All Markets.
+        </p>
+        <div class="skills">
+            <span>Read More</span>
+            <span>Contact us</span>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- About Us ends here -->
+<br>
+
+<!--for the product pop up-->
+<div class="container" id="Products">
+
+    <h3 class="title">Products</h3>
+
+    <div class="pro_name1">
+        <h3>CAKES</h3>
+        <div class="products-container">
+            <div class="product" data-name="p-1">
+              <img src="img/1.jpg" alt="">
+            </div>
+      
+            <div class="product" data-name="p-2">
+              <img src="img/2.jpg" alt="">
+            </div>
+      
+            <div class="product" data-name="p-3">
+              <img src="img/cake3.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="pro_name1">
+        <h3>PIES</h3>
+        <div class="products-container">
+            <div class="product" data-name="p-4">
+              <img src="img/pie 3.jpg" alt="">
+            </div>
+      
+            <div class="product" data-name="p-5">
+              <img src="img/pie 2.jpg" alt="">
+            </div>
+      
+            <div class="product" data-name="p-6">
+              <img src="img/pies3.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="pro_name1">
+        <h3>PASTRIES</h3>
+        <div class="products-container">
+            <div class="product" data-name="p-7">
+              <img src="img/croissant.jpg" alt="">
+            </div>
+      
+            <div class="product" data-name="p-8">
+              <img src="img/doughnuts.jpg" alt="">
+            </div>
+      
+            <div class="product" data-name="p-9">
+              <img src="img/cinnamon roll.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="pro_name1">
+        <h3>COOKIES</h3>
+        <div class="products-container">
+            <div class="product" data-name="p-10">
+              <img src="img/cookie.jpg" alt="">
+            </div>
+      
+            <div class="product" data-name="p-11">
+              <img src="img/cookies2.jpg" alt="">
+            </div>
+      
+            <div class="product" data-name="p-12">
+              <img src="img/cookies4.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+</div>
+  
+  <!--products preview part-->
+<div class="products-preview">
+
+  <div class="preview" data-target="p-1">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/1.jpg" alt="">
+    <h3>chocolate cake</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      beaten egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      cup butter</p>
+    <div class="price">&#8358;25000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-2">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/2.jpg" alt="">
+    <h3>red velvet</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      beaten egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      cup butter</p>
+    <div class="price">&#8358;8900</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-3">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/cake3.jpg" alt="">
+    <h3>chocolate cake</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      beaten egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      cup butter</p>
+    <div class="price">&#8358;6500</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-4">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/pie 3.jpg" alt="">
+    <h3>Pie</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      beaten egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;1000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-5">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/pie 2.jpg" alt="">
+    <h3>Pie</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;4000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-6">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/pies3.jpg" alt="">
+    <h3>Pie</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;5000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-7">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/croissant.jpg" alt="">
+    <h3>Croissant</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;2000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-8">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/doughnuts.jpg" alt="">
+    <h3>Doughnuts</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;2000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-9">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/cinnamon roll.jpg" alt="">
+    <h3>Cinnamon Roll</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;2000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-10">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/cookie.jpg" alt="">
+    <h3>Cookies</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;2000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-11">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/cookies2.jpg" alt="">
+    <h3>Cookies</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;2000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-12">
+    <i class="fa-solid fa-xmark"></i>
+    <img src="img/cookies4.jpg" alt="">
+    <h3>Cookies</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>Ingredients:
+      egg
+      baking powder
+      powdered sugar
+      cocoa powder
+      butter</p>
+    <div class="price">&#8358;2000</div>
+    <div class="buttons">
+      <a href="#" class="buy">buy now</a>
+      <a href="#" class="cart">add to cart</a>
+    </div>
+  </div>
+</div>
+
+
+   <!--merchandise-->
+   <div class="container gallery">
+    <h2>Merchandise</h2>
+    <h4>Section of Glasses - Mugs - Trays - Bags.</h4>
+    <ul class="controls">
+        <li class="buttons active" data-filter="all">all</li>
+        <li class="buttons" data-filter="Glass">Glass</li>
+        <li class="buttons" data-filter="Trays">Trays</li>
+        <li class="buttons" data-filter="mugs">mugs</li>
+        <li class="buttons" data-filter="bags">bags</li>    
+
+    </ul>
+    <div class="image-container">
+        <div class="infos">      
+            <a href="img/glasses1.jpg" class=" image Glass">
+                <div class="info">                
+                  </div>
+                <img src="img/glasses1.jpg" alt="">
+            </a>
+        </div>
+        <div class="infos">
+            <a href="img/glasse2.jpg" class=" image Glass">
+                <div class="info">
+                  </div>
+            <img src="img/glasse2.jpg" alt="">
+                </a>
+    </div>
+        <div class="infos">
+        <a href="img/glasses3.jpg" class=" image Glass">
+            <div class="info">
+              </div>
+            <img src="img/glasses3.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="infos">
+        <a href="img/tray3.jpg" class=" image Trays">
+            <div class="info">
+              </div>
+            <img src="img/tray3.jpg" alt="">
+        </a>
+    </div>
+    <div class="infos">
+        <a href="img/tray2.jpg" class=" image Trays">
+            <div class="info">
+              </div>
+            <img src="img/tray2.jpg" alt="">
+        </a>
+    </div>
+    <div class="infos">
+        <a href="img/tray1.jpg" class=" image Trays">
+            <div class="info">                 
+              </div>
+            <img src="img/tray1.jpg" alt="">
+        </a>
+    </div>
+   
+
+    <div class="infos">
+        <a href="img/mug4.jpg" class="image mugs">
+            <div class="info">
+              </div>
+            <img src="img/mug4.jpg" alt="">
+        </a>
+    </div>
+    <div class="infos">
+        <a href="img/mug1.jpg" class=" image mugs">
+            <div class="info">
+              </div>
+            <img src="img/mug1.jpg" alt="">
+        </a>
+    </div>
+    <div class="infos">
+        <a href="img/mug2.jpg" class=" image mugs">
+            <div class="info">
+              </div>
+            <img src="img/mug2.jpg" alt="">  
+        </a>
+    </div>
+
+    <div class="infos">
+        <a href="img/bag3.jpg" class="image bags">
+            <div class="info">
+              </div>
+            <img src="img/bag3.jpg" alt="">
+        </a>
+    </div>
+    <div class="infos">
+        <a href="img/bag2.jpg" class=" image bags">
+            <div class="info">
+              </div>
+            <img src="img/bag2.jpg" alt="">
+        </a>
+    </div>   
+    <div class="infos">
+        <a href="img/bag1.jpg" class=" image bags">
+            <div class="info">                 
+            </div>
+            <img src="img/bag1.jpg" alt="">  
+        </a>
+    </div>
+ 
+    <!------jquary CDN link--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <!--magnific popup js cdn link-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+          
+    </div>
+</div>
+<br>
+
+<!--Gallery-section-->
+<div class="gal-heading" id="Gallery">
+  <h3>GALLERY</h3>
+</div>
+<div class="image-gallery">
+  <div class="image-box">
+    <img src="img/gal1.jpg" alt="img1.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">WAFFLES</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal17.jpg" alt="img2.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">SMALL CAKES</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal3.jpg" alt="img3.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">BREAD</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal4.jpg" alt="img4.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">FLAT CAKES</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal5.jpg" alt="img5.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">CAKES</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal6.jpg" alt="img6.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">DOUGHNUTS</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal7.jpg" alt="img7.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">DOUGHNUTS</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal8.jpg" alt="img8.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">TART CAKES</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal12.jpg" alt="img9.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">CAKES</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal10.jpg" alt="img10.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">WAFFLES</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal2.jpg" alt="img11.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">CROISSANT</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-box">
+    <img src="img/gal15.jpg" alt="img12.jpg" />
+    <div class="overlay">
+      <div class="details">
+        <h3 class="title">
+          <a href="#">Special Offerings</a>
+        </h3>
+        <span class="category">
+          <a href="#">PIZZA</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<!--gallery section ends here-->
+
+<!-- Form text File-->
+<div class="text container" id="form">
+  <!--Add few elements to the form-->
+  <h1 style="color: #e0a93c; font-family: 'Pacifico';">Bakerz Bite form</h1>
+  <div class="text">
+    <input type="text" id="txtName" placeholder="Enter your name" />
+  </div>
+  <div class="text">
+    <input type="text" id="txtAge" placeholder="Enter your age" />
+  </div>
+  <div class="text">
+    <input type="text" id="txtEmail" placeholder="Enter your email address" />
+  </div>
+  <div class="text">
+    <select id="selCountry">
+      <option selected value="">-- Choose the country --</option>
+      <option value="Egypt">Egypt</option>
+      <option value="South African">South Africa</option>
+      <option value="Nigeria">Nigeria</option>
+    </select>
+  </div>
+  <div class="text">
+    <textarea id="msg" name="msg" placeholder="Write some message ..." style="height: 100px;"></textarea>
+  </div>
+  <div class="text">
+    <input type="button" id="bt" value="Save data to file" onclick="saveFile()" />
+  </div>
+</div>
+<!-- Form text File ends here -->
+
+
+<!--faq section-->
+<div class="faq-container" id="FAQ">
+  <div class="row">
+    <div class="faq-wrapper">
+      <div class="headz">
+        <h1>FAQs</h1>
+      </div>
+      <div class="faq-inner">
+        <div class="faq-item">
+          <h3>
+            Can i return an order after purchase?
+            <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+        <hr>
+        <div class="faq-item">
+          <h3>
+            How do you make pastries at home?
+            <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+        <hr>
+        <div class="faq-item">
+          <h3>
+            How many teaspoons of sugar to use in cakes?
+            <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+        <hr>
+        <div class="faq-item">
+          <h3>
+            What do i do to get your merchandise?
+            <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+        <hr>
+        <div class="faq-item">
+          <h3>
+            What payment method exists in your company?
+            <span class="faq-plus">&plus;</span>
+          </h3>
+          <div class="faq-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(".faq-plus").on('click',function(){
+    $(this).parent().parent().find('.faq-body').slideToggle();
+  });
+</script>
+<!--faq ends here-->
+
+<!-- Map  -->
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.261830396231!2d3.355944014522451!3d6.614356395216851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93b65ba86e15%3A0x3ae060fb3436c3ad!2sIkeja%20City%20Mall!5e0!3m2!1sen!2sng!4v1664194478043!5m2!1sen!2sng" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- Map ends here -->
+
+<!-- Footer -->
+      <!-- Contacts -->
+      <div class="footer">
+        <div class="footer1">
+  
+          <div class="cont" id="Contacts">
+              <h2>Contact Us</h2>
+              <!-- <p>We are good bakers of all types of cake <br>
+                  both wedding and birthday cakes. <br>
+                  Our aim is to satisfy our customers.
+                  </p> -->
+              <p><i class='bx bxs-location-plus bx-tada'></i><span style="color:  rgb(255, 196, 0);"> Our Adress:</span> No. 112 allen Avenue, Ikeja,<br>Lagos, Nigeria.</p>
+              <p><i class='bx bxs-phone-call bx-tada' ></i><span style="color:  rgb(255, 196, 0);"> Phone:</span> 08012345678</p>
+              <p><i class='bx bxs-envelope bx-fade-left'></i><span style="color:  rgb(255, 196, 0);">Email:</span> bryteokk@gmail.com</p>
+              <div class="contact-icons">
+                <i class='bx bxl-facebook-circle bx-tada' ></i>
+                <i class='bx bxl-twitter bx-tada' ></i>
+                <i class='bx bxl-instagram-alt bx-tada' ></i>                    
+                <i class='bx bxl-youtube bx-tada' ></i>           
+              </div> 
+          </div>
+          <!-- Contacts ends here-->
+          <div class="cont">
+              <h2>Opening Hours</h2>
+              <p><span class="daycolor">Sunday:</span>9:00am - 8:00pm</p>
+              <p><span class="daycolor">Monday:</span>8:00am - 9:00pm</p>
+              <p><span class="daycolor">Tuesday:</span>8:00am - 9:00pm</p>
+              <p><span class="daycolor">Wednesday:</span>8:00am - 9:00pm</p>
+              <p><span class="daycolor">Thursday:</span>8:00am - 9:00pm</p>
+              <p><span class="daycolor">Friday:</span>8:00am - 9:00pm</p>
+              <p><span class="daycolor">Saturday:</span>9:00am - 8:00pm </p>
+          </div>
+            <div class="cont">       
+              <h4 class="head"><!------Geolocation html starts here-->  
+              <p>Click below to get your coordinates</p></h4>
+          
+              <button onclick="getLocation()">Know Your Location</button>
+              <p id="Location"></p>
+              <!-----html for Date and Time starts here-->
+          
+              <marquee behavior="" direction=""><p id="start"></p></marquee>
+              <!-----html for Date and Time ends here-->
+            </div>
+
+            <script>
+              /*Geolocation js begins here  */
+            var x = document.getElementById("Location");
+            
+            function getLocation() {
+              if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+              } else { 
+                x.innerHTML = "Geolocation is not supported by this browser.";
+              }
+            }
+            
+            function showPosition(position) {
+              x.innerHTML = "Latitude: " + position.coords.latitude + 
+              "<br>Longitude: " + position.coords.longitude;
+            }
+            /*Geolocation js ends here  */
+            
+            /*Date and Time js starts here*/
+            const D= new Date();
+            document.getElementById("start").innerHTML = D;
+            
+            /*Date and Time js starts here*/
+            </script>        
+            
+      </div>
+          <div class="footer2">
+            <p> C 2022 BAKERZ BITE&#174; @All Rights Reserved-2022-purchase</p>
+          </div>
+  </div>
+<!-- Footer ends here-->
+
+    <script src="geo.js"></script>
+    <!------Geolocation html ends here-->
+
+  <script src="merchandise.js"></script>
+  <script src="product.js"></script>
+  <script src="form.js"></script>
+  <script src="navbar.js"></script>
+  <script src="bootstrapjs/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+   
+</body>
+</html>
